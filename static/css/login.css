@@ -1,0 +1,66 @@
+.div_border{
+    height:35px;
+    width:260px;
+    position:relative;
+}
+.input_border{
+    height:35px;
+    width:230px;
+    padding-right:30px;
+    font-size:90%
+}
+.span_border{
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    height: 16px;
+    width: 16px;
+}
+.login_submit{
+    height:39px;
+    width:264px;
+    background-color: #00a2ca;
+    color: white;
+    border:0;
+}
+.login_submit:hover{
+    background-color: #33b5d4;
+}
+.link_font_style{
+    color:#666;
+    text-decoration:none;
+    font-size:80%
+}
+.link_border_style{
+    right:138px;
+    top: 30px;
+    position: fixed;
+}
+.img_border_style{
+    border:0 solid #dddddd;
+    height: 600px;
+    width: 1200px;
+    left:100px;
+    top:83px;
+    position: fixed;
+}
+.login_border_style{
+    border:1px solid #dddddd;
+    height: 360px;
+    width:380px;
+    left:700px;
+    top:200px;
+    position: fixed;
+}
+.backend_font_style{
+    margin-left: 125px;
+    margin-top: 50px;
+    font-weight:bold;
+    font-size:150%;
+    color: #666;
+}
+.forget_register_font_style{
+    text-decoration:none;
+    font-size:70%;
+    color:#00a2ca
+}

@@ -1,0 +1,77 @@
+ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "微软雅黑";
+    font-size: 15px;
+}
+/*顶部导航栏属性*/
+.nav{
+    height:50px;
+    width: 100%;
+    background-color: #373D41;
+    position:fixed;
+    display: block;
+    z-index: 9999;
+}
+.logo{
+    width:50px;
+    height: 50px;
+    border-right: 1px solid #2A2F32;
+    float: left;
+}
+.online{
+    height:50px;
+    width:129px;
+    border-right: 1px solid #2A2F32;
+    float: left;
+}
+.online p {
+    text-align: center;
+    padding-top: 13px;
+    box-sizing:border-box;
+    color: white;
+}
+.online:hover{
+    background-color: #2a2f32;
+}
+/*!*中部属性*!*/
+/*.central{*/
+    /*position: relative;*/
+    /*top: 50px;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*z-index: 999;*/
+/*}*/
+/*中部左侧属性*/
+.aside_left{
+    width: 180px;
+    display: block;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    background-color: #293038;
+    float: left;
+}
+.aside-box-font{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+.aside-box-wh{
+    width: 180px;
+    height: 40px;
+    padding: 11px;
+    box-sizing:border-box;
+    text-align: center;
+}
+.aside-box-wh:hover{
+    background-color: #4a5064;
+}
+/*中部右侧属性*/
+.aside_right{
+    width: 87.4%;
+    height: 100%;
+    float: right;
+}
